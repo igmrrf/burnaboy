@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+    display: grid;
+    justify-content: center;
+   
+}
+
+h1 {
+    animation: type 5s steps(9);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid black;
+    width: 10ch;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 9ch;
+    }
+}
